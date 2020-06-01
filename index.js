@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { FlatList } from 'react-native';
 import PropTypes from 'prop-types'
 
-export default class InfiniteScroll extends Component {
+export default class RNInfiniteScroll extends Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -59,12 +59,12 @@ export default class InfiniteScroll extends Component {
     }
 }
 
-InfiniteScroll.propTypes = {
+RNInfiniteScroll.propTypes = {
     offset: PropTypes.number,
     showsVerticalScrollIndicator: PropTypes.bool
 }
 
-InfiniteScroll.defaultProps = {
+RNInfiniteScroll.defaultProps = {
     offset: 20,
     showsVerticalScrollIndicator: false
 };
