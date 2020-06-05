@@ -1,19 +1,46 @@
 {
-  "name": "react-native-auto-infinite-scroll",
-  "version": "1.0.4",
-  "description": "- 선언 ``` import RNInfiniteScroll from 'react-native-auto-infinite-scroll'; ``` - 사용 ``` <RNInfiniteScroll     data={[{ key: '1' }, { key: '2' }, { key: '3' }, { key: '4' }, { key: '5' }, { key: '6' }, { key: '7' }]}     renderItem={({ item }) => <View style={styles.listItem}><Text>{item.key}</Text></View>}/> ```",
-  "main": "src",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "react-native-auto-infinite-scroll@^1.0.5",
+  "_id": "react-native-auto-infinite-scroll@1.0.5",
+  "_inBundle": false,
+  "_integrity": "sha512-dlVX011sL0BD/1O3dCv41JEVTBDL04u3c1ojhEq6APUXFpvQtTLtXItQEBDh7epZulkVec7hKIk+Zppxc8IQjw==",
+  "_location": "/react-native-auto-infinite-scroll",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "react-native-auto-infinite-scroll@^1.0.5",
+    "name": "react-native-auto-infinite-scroll",
+    "escapedName": "react-native-auto-infinite-scroll",
+    "rawSpec": "^1.0.5",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.5"
   },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-auto-infinite-scroll/-/react-native-auto-infinite-scroll-1.0.5.tgz",
+  "_shasum": "8a9c23b7136a5c4b6d1729295744431ef954383c",
+  "_spec": "react-native-auto-infinite-scroll@^1.0.5",
+  "_where": "/Users/leedev/Desktop/TestApp",
+  "author": {
+    "name": "davidlee"
+  },
+  "bugs": {
+    "url": "https://github.com/leeyonghe/react-native-auto-infinite-scroll/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "- 선언 ``` import RNInfiniteScroll from 'react-native-auto-infinite-scroll'; ``` - 사용 ``` <RNInfiniteScroll     data={[{ key: '1' }, { key: '2' }, { key: '3' }, { key: '4' }, { key: '5' }, { key: '6' }, { key: '7' }]}     renderItem={({ item }) => <View style={styles.listItem}><Text>{item.key}</Text></View>}/> ```",
+  "homepage": "https://github.com/leeyonghe/react-native-auto-infinite-scroll#readme",
+  "license": "ISC",
+  "main": "src",
+  "name": "react-native-auto-infinite-scroll",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leeyonghe/react-native-auto-infinite-scroll.git"
   },
-  "author": "davidlee",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/leeyonghe/react-native-auto-infinite-scroll/issues"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/leeyonghe/react-native-auto-infinite-scroll#readme"
+  "version": "1.0.5"
 }

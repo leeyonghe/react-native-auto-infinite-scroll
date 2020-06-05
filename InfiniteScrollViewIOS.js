@@ -4,7 +4,7 @@ import React, {
   ScrollView,
 } from 'react-native';
 
-export default class InfiniteScrollView extends Component {
+export default class InfiniteScrollViewIOS extends Component {
   constructor(props) {
     super(props);
 
